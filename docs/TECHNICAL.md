@@ -6,7 +6,7 @@ This document describes the project’s product function, architecture, and tech
 
 - **[README](../README.md)** — Project overview, what it does, demos, principles
 - **[SETUP.md](./SETUP.md)** — How to run the app locally, env vars, tests, Storybook
-- **[requirements.md](./requirements.md)** — Product scope, data model, phased roadmap
+- **[REQUIREMENTS.md](./REQUIREMENTS.md)** — Product scope, data model, phased roadmap
 
 **Summary.** Global Email Studio is a React + Node app that implements a three-step campaign authoring flow with per-market localization. Key technical choices:
 
@@ -89,7 +89,7 @@ Resolution order for “which subject/body do we use for this location?” is fi
 ```
 GlobalEmailStudio/
 ├── docs/
-│   ├── requirements.md   # Product scope, data model, phases
+│   ├── REQUIREMENTS.md   # Product scope, data model, phases
 │   ├── SETUP.md          # How to run locally, env vars, tests, Storybook
 │   └── TECHNICAL.md      # This document
 ├── server/               # Node API
@@ -237,5 +237,5 @@ Tab-specific logic lives in colocated hooks (`PreviewPage.hooks.ts`, etc.); the 
 
 The web app is built with Vite; the server is plain Node + Express. No database or auth in the current phase; all data is in-memory (server mock data and client state).
 
-**Related documentation:** [README](../README.md) · [SETUP.md](./SETUP.md) · [requirements.md](./requirements.md)
+**Related documentation:** [README](../README.md) · [SETUP.md](./SETUP.md) · [REQUIREMENTS.md](./REQUIREMENTS.md)
 
