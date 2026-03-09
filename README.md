@@ -14,9 +14,9 @@ A **B2B campaign email tool** for designing one campaign and localizing it per m
 ---
 
 ## Demos
+https://github.com/user-attachments/assets/cae2afcb-53c7-49df-8fc3-f82e0b800322
 
-- **Running app** — After [setup](docs/SETUP.md), open the web app (e.g. http://localhost:5173). You can switch templates, edit the campaign draft, use **Save & translate** (with an API key), toggle markets and set overrides, then preview and trigger a simulated send.
-- **Storybook** — Design-system components (buttons, cards, inputs, etc.) in isolation. Run from the `web` folder: `npm run storybook` (see [Setup](docs/SETUP.md#optional-storybook)).
+
 
 ---
 
@@ -55,7 +55,7 @@ Clone the repo, then follow **[Setup](docs/SETUP.md)** to install dependencies a
 
 ```
 GlobalEmailStudio/
-├── docs/           # SETUP.md, TECHNICAL.md, requirements.md
+├── docs/           # SETUP.md, TECHNICAL.md, REQUIREMENTS.md
 ├── server/         # Node API (GET /session, mock data)
 └── web/            # React app (Vite, tabs: Template | Markets | Preview)
 ```
