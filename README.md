@@ -35,13 +35,13 @@ This project reflects how I approach React and front-end systems:
 
 ## Documentation
 
-**Quick links:** [Setup](docs/SETUP.md) · [Technical design](docs/TECHNICAL.md) · [**Product requirements**](docs/requirements.md)
+**Quick links:** [Setup](docs/SETUP.md) · [Technical design](docs/TECHNICAL.md) · [**Product requirements**](docs/REQUIREMENTS.md)
 
 | Document | Audience | Description |
 |----------|----------|-------------|
 | **[Setup](docs/SETUP.md)** | Anyone running the app | How to run the API and web app locally, env vars, optional Storybook, tests. |
 | **[Technical design](docs/TECHNICAL.md)** | Tech leads, engineers | Architecture, state, data loading, template resolution, translation, testing. |
-| **[Product requirements](docs/requirements.md)** | Product, engineering | Vision, scope, data model, capabilities, phased roadmap. |
+| **[Product requirements](docs/REQUIREMENTS.md)** | Product, engineering | Vision, scope, data model, capabilities, phased roadmap. |
 
 ---
 
